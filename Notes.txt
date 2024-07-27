@@ -1,0 +1,47 @@
+Tags:
+    1. HTML:
+     this tag is used to identify if the document is a html document
+     denotion- <html> and </html>
+    2. Head:
+     the content in this tag will not appear in the pag, but at the tab
+     denotion- <head> and </head>
+        a. Title:
+         the text inside this will be the title of that respective tab
+         deotion- <title> and </title>
+    3. Body:
+     the main content that is displayed in the webpage
+     denotion- <body> and </body>
+        a. Paragraph
+         the content in this tag will be displayed as a paragraph in the webpage
+         denotion- <p> and </p>
+        b. Break
+         the content after this tag will be displayed on the next line of the paragraph 
+         [self closing tag]
+         denotion- <br>
+        c. Heading
+         text that is displayed at different sizes based on the priority
+         heading- 1 -> Largest / Highest priority
+         heading- 6 -> Smallest / Least priority 
+         denotion- 
+          <h1>  <h2>  <h3>  <h4>  <h5>  <h6>
+         </h1> </h2> </h3> </h4> </h5> </h6>
+        d. Bold
+         the content in the tag will be displayed as bold in the webpage
+         denotion- <b> and </b>
+        e. Italic
+         the content in the tag will be displayed as italic in the webpage
+         denotion- <i> and </i>
+        f. Underline
+         the text in the tag will be displayed as underlined text in the webpage
+         denotion- <u> and </u>
+        g. Image
+         tag used for displaying images in the webpage
+         [self closing tag]
+         denotion- <img/>
+            A. src attribute
+             image path can be image link (as that of one provided by google, or edge)
+             <img src= "image path"/>
+             for simplicity, store all images in a folder in the same folder as your html docs
+        h. Div
+         this tag is used to divide the webpage into different sections, the content inside the div tags will be displayed only in that specific region
+         denotion- <div> and </div>
