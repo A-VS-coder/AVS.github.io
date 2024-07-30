@@ -1,0 +1,12 @@
+body {
+    background-color: #0A0A0A;
+}
+
+.nav_bar {
+    background: #311169;
+    height: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+  

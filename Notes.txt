@@ -1,3 +1,4 @@
+HTML:
 Tags:
     1. HTML:
      this tag is used to identify if the document is a html document
@@ -45,3 +46,46 @@ Tags:
         h. Div
          this tag is used to divide the webpage into different sections, the content inside the div tags will be displayed only in that specific region
          denotion- <div> and </div>
+
+CSS:
+Selectors:
+ used to determine which html element is to be styled
+
+Declarations:
+ Consists of a set of instructions which tell the browser how to style the html element
+ properties and values for the element enclosed in crly brakets
+
+Ways to link with HTML:
+ priority order- inline >  external/internal
+ for internal and external, whichever comes last is taken as the priority
+   1. write css within HTML tags - inline CSS
+    eg- <p style="font-size:12px; color: red"> this is red text with size 12px </p>
+    *only this paragraph will have this format
+   2. write it inside your html enclosed in the style tag to the head of the HTML document - internal CSS
+    eg- <head> <style> p {font-size: 12px; color: orange} </style> </head>
+    *all paragraphs will have this format 
+   3. write a separate file with .css extension and use <link href= "name of file.css"> to the head of the HTML document - external CSS
+    <head> <link rel= "stylesheet" href= "name of file.css> </head>
+    *rel- specifies the relationship that the linked file has with the cource file
+    *href- hypertext references used to provide a path to the css stylesheet which is to be linked
+
+HTML element selection:
+   1. element selector
+    using the name of the element to be selected 
+    eg- for a paragraph tag 
+        p {properties}
+    all paragraph elements will have this exact same formatting
+   2. class selector
+    using a class given to the element while writing the HTML <p class= "class_name"> </p>
+    eg- .class_name {properties}
+    *using this method for formatting, you need to add a dot before the class name
+   3. id selector
+    using a id given to the element while writing the HTML <p id= "id_name"> </p>
+    eg- #id_name {properties}
+    *using this method for formatting, you need to add a # bfore the id of that element
+   4. attribute selector
+    using an attribute used while writing the HTML 
+    eg- <p attribute= value> </p>
+      p[attribute = value] {properties}
+    *using this method requires you to specify the element name followed by [attribute=value]
+    *above css will select all the paragraphs wich have type attributes value as text
