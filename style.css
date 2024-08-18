@@ -1,31 +1,18 @@
 body {
-    background-color: #0A0A0A;
+background-color: #0A0A0A;
 }
 
 .nav_bar {
-    background: #311169;
+    position: fixed;
+    background-color: blueviolet;
+    margin-top: 10px;
+    width: 99%;
     height: 50px;
-    padding: 20px;
-    border-radius: 20px;
     display: flex;
 }
 
-#sign_up {
-    height: 50px;
-    width: 100px;
-    margin-left: 10px;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
+#scroll {
+    height: 1000px;
+    width: 50px;
+    background-color: aquamarine;
 }
-
-.main{
-    background-color: #6A23E7;
-    height: 260px;
-    border-radius: 25px;
-    margin-top: 70px;
-    padding-left: 50%;
-    padding-right: 50%;
-    display: flex;
-    justify-content: center;
-}
-  
